@@ -1,0 +1,41 @@
+#cards_principais .card
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 15px;
+}
+#cards_principais .card img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+#cards_principais .usage {
+   font-size: large;
+  }
+
+  #conteudo
+  {
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+    font-size: small;
+  }
+#mainpesquisa
+{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.9766281512605042) 0%, rgba(47,177,242,1) 100%);
+}
+
+#conteudo .img
+{
+  padding-right: 5px;
+}
